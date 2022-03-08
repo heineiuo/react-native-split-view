@@ -11,7 +11,7 @@ export type SplitViewProps = {
   columns: Partial<Record<SplitViewColumn, ReactElement>>;
   preferredDisplayMode?: SplitViewDisplayMode;
   preferredPrimaryColumnWidthFraction?: number;
-  preferredSupplementaryColumnWidthFraction?: number | void;
+  preferredSupplementaryColumnWidthFraction?: number;
   onDisplayModeChange?: (displayMode: SplitViewDisplayMode) => void;
 };
 
